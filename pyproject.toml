@@ -1,0 +1,23 @@
+[project]
+name = "phishing"
+version = "0.1.0"
+description = "ML Group Project"
+
+authors = [
+    {name = "Miguel Zavala",email = "mzavalagamero@mail.smu.edu"},
+    {name = "Erika Dupond",email = "edupond@mail.smu.edu"},
+    {name = "Steven Cox",email = "sacox@mail.smu.edu"},
+    {name = "Hayoung Cheon",email = "hcheon@mail.smu.edu"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "notebook (>=7.4.2,<8.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
