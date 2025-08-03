@@ -20,7 +20,8 @@ dependencies = [
     "seaborn (>=0.13.2,<0.14.0)",
     "plotly (>=6.1.0,<7.0.0)",
     "pandoc (>=2.4,<3.0)",
-    "nbconvert (>=7.16.6,<8.0.0)"
+    "nbconvert (>=7.16.6,<8.0.0)",
+    "ucimlrepo (>=0.0.7,<0.0.8)"
 ]
 
 [tool.poetry]
